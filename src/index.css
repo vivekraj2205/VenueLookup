@@ -1,0 +1,5 @@
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;min-width:320px}
+#root{min-height:100vh}
+::selection{background:#dce9dc;color:#294534}
