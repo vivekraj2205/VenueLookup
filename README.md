@@ -30,6 +30,16 @@ npm run lint
 npm run build
 ```
 
+## GitHub Pages
+
+The public demo is deployed from the `main` branch by the **Deploy VenueLookup to GitHub Pages** Actions workflow:
+
+<https://vivekraj2205.github.io/VenueLookup/>
+
+The workflow runs on pushes to `main` and can also be started manually from the repository’s **Actions** tab. It installs dependencies, runs lint and the production build, then deploys `dist/` to Pages. The Vite base path is configured for this repository name.
+
+To confirm or change the Pages publishing source in GitHub, open **Settings → Pages → Build and deployment → Source** and select **GitHub Actions**. The project data is demo-only, but Pages makes this site publicly accessible.
+
 ## Demo walkthrough
 
 1. Use **Explore** or the homepage search to filter seeded venues by city, occasion, guest capacity, budget, and amenities. Sort by recommendation, price, or rating.
